@@ -1,0 +1,3 @@
+K:/Kuliah/Quiz/cmake-build-debug/CMakeFiles/Quiz.dir
+K:/Kuliah/Quiz/cmake-build-debug/CMakeFiles/edit_cache.dir
+K:/Kuliah/Quiz/cmake-build-debug/CMakeFiles/rebuild_cache.dir
