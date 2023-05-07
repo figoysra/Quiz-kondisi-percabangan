@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-     int age, money, testCode, nomor, height, result;
+     int age, money, testCode, nomor, height, result, running, push, plank, kalori;
      string residence, name, rank, resultCode, resultInt, interview, position, olahraga;
 
      std::cout << "Nama Anda :";
@@ -98,10 +98,17 @@ int main() {
     std::cout<<"------------"<<std::endl;
     std::cout<< "soal 4" <<std::endl;
 
-//    cout<< "Olahraga : ";
-//    cin >> olahraga;
+    cout<< "Berapa Anda Lari (menit): ";
+    cin >> running;
+    cout<< "Berapa Anda push up (menit): ";
+    cin >> push;
+    cout<< "Berapa Anda plank (menit): ";
+    cin >> plank;
 
-//    if(olahraga )
+    kalori = (60 * (running/5) )+ (200 * (push/30)) + (5 * (plank/1));
+
+    cout << "Total Kalori "<< kalori<<endl;
+
 
     std::cout<<"------------"<<std::endl;
     std::cout<< "soal 5" <<std::endl;
